@@ -82,7 +82,7 @@ COLUMNS MOBILE
 /************************************************** 
 COLUMNS TABLET
 ************************************************* */
-@media screen and (max-width: 991px){
+@media screen and (min-width: 440px) and (max-width: 991px){
     .col-m-1{
         width: calc(100% / 12);
     }
@@ -240,7 +240,7 @@ OFFSET MOBILE
 /***************************************************************
 OFFSET TABLET
 **************************************************************** */
-@media screen and (max-width: 991px){
+@media screen and (min-width: 440px) and (max-width: 991px){
     .offset-m-0{
         margin-left: 0px;
     }
